@@ -28,15 +28,15 @@ let args = process.argv.slice(3);
 
   console.log(`Dash URL: \x1b[36m${mpdURL}\x1b[0m`);
 
-  let ytdl = child_process.spawn("youtube-dl", [mpdURL, ...args], {
+  let ytdlp = child_process.spawn("yt-dlp", [mpdURL, ...args], {
     stdio: "inherit",
   });
 
-  ytdl.on("exit", (code) => {
+  ytdlp.on("exit", (code) => {
     process.exit(code || 0);
   });
 
-  ytdl.on("error", (err) => {
+  ytdlp.on("error", (err) => {
     console.error(err);
     process.exit(1);
   });

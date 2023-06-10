@@ -35,9 +35,9 @@ pnpm add -g minitv
 
 ## Usage
 
-miniTV is a wrapper for [youtube-dl](https://github.com/ytdl-org/youtube-dl) and requires `youtube-dl` to be installed on your system to work. Further more, tools like [ffmpeg](https://ffmpeg.org/) and [ffprobe](https://ffmpeg.org/ffprobe.html) maybe required to be installed work properly in some cases.
+miniTV is a wrapper for [yt-dlp](https://github.com/yt-dlp/yt-dlp) and requires `yt-dlp` to be installed on your system to work. Further more, tools like [ffmpeg](https://ffmpeg.org/) and [ffprobe](https://ffmpeg.org/ffprobe.html) maybe required to be installed work properly in some cases.
 
-[![youtube-dl](https://badgen.net/badge/download/youtube-dl/orange)](https://ytdl-org.github.io/youtube-dl/download.html)
+[![yt-dlp](https://img.shields.io/github/v/release/yt-dlp/yt-dlp?color=brightgreen&label=Download&style=for-the-badge)](https://github.com/yt-dlp/yt-dlp/tree/master#installation)
 
 [![ffmpeg](https://badgen.net/badge/download/ffmpeg/orange)](https://ffmpeg.org/download.html)
 
